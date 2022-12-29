@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/> 
+        <title>Order</title>
+        <link rel="shortcut icon" type="x-icon" href="omar logo black.jpg">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+        <link rel="stylesheet" href="C:\Users\sayeh omar\Desktop\project\CSS\styless.css">
+        
+
+    </head>
+    <body> 
+        <div class="container">
+            <div class="nav-wrapper"><div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Gallery</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="projects.html">Projects</a> 
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="order.html">Order</a> 
+                </div>
+    
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a> 
+                </div>
+            </div>
+             
+
+                <div class="right-side">
+                    <div class="brand">
+                        <div>Sayeh Omar</div>
+                    </div>
+                 </div>
+
+        
+         </div>
+         
+         <div class="order-wrapper">
+            <form class ='form' action="http://localhost:3000/validation.php"  method="post" id="myform">
+
+                <div class="name-field">
+                    <div >
+                        <label>Name</label><input id="username"   type="text" name="Name" size="20"  >
+
+                    </div>
+                    <div >
+                        <label>Family-name</label><input  id="family"  type="text" name="family-name" size="20" >
+
+                    </div>
+
+
+                </div>
+                
+
+                <label>Email</label><input id="email"   type="text" name="email" size="20" >
+                <label>Password</label><input id="password"   type="text" name="password" size="20" >
+                <label>Description</label><textarea type="textarea" id="description" name="description" size="40"></textarea>
+                <button type="submit" value="submit"> submit</button>    
+                 
+            </form>
+            
+          
+
+        </div>
+
+        <script src="order-validation.js"></script>
+        
+    
+    </body>
+</html>
